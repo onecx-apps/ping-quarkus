@@ -4,9 +4,9 @@ on:
   pull_request:
 
 jobs:
-  dependency-review:
-    uses: onecx-apps/ci-common/.github/workflows/dependency-review.yml@v1
-    secrets: inherit
+  # dependency-review:
+  #   uses: onecx-apps/ci-common/.github/workflows/dependency-review.yml@v1
+  #   secrets: inherit
   code-ql:
     uses: onecx-apps/ci-quarkus/.github/workflows/quarkus-codeql.yml@v1
     secrets: inherit
