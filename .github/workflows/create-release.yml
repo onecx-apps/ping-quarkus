@@ -1,7 +1,6 @@
 name: Create Release Version
 on:
   workflow_dispatch:
-  
 jobs:
   release:
     uses: onecx-apps/ci-common/.github/workflows/create-release.yml@v1
